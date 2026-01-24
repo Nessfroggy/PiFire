@@ -1,7 +1,7 @@
 <!-- Post Update Message for v1.10.0 -->
 <H1>
     <img src="{{ url_for('static', filename='img/launcher-icon-1x.png') }}" width="50" height="50" class="d-inline-block align-top" alt="">
-    PiFire 1.10.4 Release - December 2025
+    PiFire 1.10.5 Release - January 2026
 </H1>
 
 <div class="row justify-content-center">
@@ -139,6 +139,9 @@
                </li>
                <li>
                   Fixed a bug where control script may crash if the user updates the controller while in Hold mode.  Now the controller configuration can be updated while in Hold mode without crashing the control script.
+               </li>
+               <li>
+                  Fixed a bug with the MAX31865 configuration where the CS/CEx pin options were incorrect.  Now only CE0 and CE1 are available for selection.  
                </li>
             </ul>
        
